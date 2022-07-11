@@ -1,4 +1,8 @@
 Revision history for RT-Extension-CopySubjectButton
 
-0.01 [Release Date]
+0.01 2022-07-08
  - Initial version
+
+0.02 2022-07-11
+ - The copy button, is now only visible on the ticket display page. (Did not work in other pages)
+ - Properly formatted the "Changes" file
