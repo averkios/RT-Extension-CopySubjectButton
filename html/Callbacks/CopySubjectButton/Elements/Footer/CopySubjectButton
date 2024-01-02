@@ -1,0 +1,15 @@
+<script type="text/javascript">
+    if (window.location.href.includes("Ticket/Display.html")){
+        document.getElementById('header').getElementsByTagName("h1")[0].innerHTML+='&nbsp;<button class="button form-control btn btn-primary float-right" onclick="copyContent()">Copy</button>';
+    }
+    
+const copyContent = async () => {
+      let subjectwithtag = document.getElementById("24t45g45ygh5k8rgh").innerHTML;
+      try {
+      await navigator.clipboard.writeText(subjectwithtag);
+        console.log('Content copied to clipboard');
+      } catch (err) {
+        console.error('Failed to copy: ', err);
+      }
+    }
+</script>
