@@ -43,7 +43,7 @@
          "url" : "https://github.com/averkios/RT-Extension-CopySubjectButton"
       }
    },
-   "version" : "0.05",
+   "version" : "0.06",
    "x_module_install_rtx_version" : "0.42",
    "x_requires_rt" : "5.0.1",
    "x_rt_too_new" : "5.2.0",

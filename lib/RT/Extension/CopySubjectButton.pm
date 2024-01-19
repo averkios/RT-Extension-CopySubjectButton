@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package RT::Extension::CopySubjectButton;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 =head1 NAME
 
@@ -59,7 +59,7 @@ href="http://rt.cpan.org/Public/Dist/Display.html?Name=RT-Extension-CopySubjectB
 
 =head1 LICENSE AND COPYRIGHT
 
-This software is Copyright (c) 2023 by Averkios
+This software is Copyright (c) 2024 by Averkios
 
 This is free software, licensed under:
 

@@ -30,7 +30,7 @@
 #     NO_META => q[1]
 #     PREREQ_PM => { ExtUtils::MakeMaker=>q[6.36] }
 #     TEST_REQUIRES => {  }
-#     VERSION => q[0.05]
+#     VERSION => q[0.06]
 #     VERSION_FROM => q[lib/RT/Extension/CopySubjectButton.pm]
 #     dist => {  }
 #     realclean => { FILES=>q[MYMETA.yml] }
@@ -72,11 +72,11 @@ DIRFILESEP = /
 DFSEP = $(DIRFILESEP)
 NAME = RT::Extension::CopySubjectButton
 NAME_SYM = RT_Extension_CopySubjectButton
-VERSION = 0.05
+VERSION = 0.06
 VERSION_MACRO = VERSION
-VERSION_SYM = 0_05
+VERSION_SYM = 0_06
 DEFINE_VERSION = -D$(VERSION_MACRO)=\"$(VERSION)\"
-XS_VERSION = 0.05
+XS_VERSION = 0.06
 XS_VERSION_MACRO = XS_VERSION
 XS_DEFINE_VERSION = -D$(XS_VERSION_MACRO)=\"$(XS_VERSION)\"
 INST_ARCHLIB = blib/arch
@@ -273,7 +273,7 @@ RCS_LABEL = rcs -Nv$(VERSION_SYM): -q
 DIST_CP = best
 DIST_DEFAULT = tardist
 DISTNAME = RT-Extension-CopySubjectButton
-DISTVNAME = RT-Extension-CopySubjectButton-0.05
+DISTVNAME = RT-Extension-CopySubjectButton-0.06
 
 
 # --- MakeMaker macro section:
@@ -798,7 +798,7 @@ testdb_static test_static :: subdirs-test_static
 # --- MakeMaker ppd section:
 # Creates a PPD (Perl Package Description) for a binary distribution.
 ppd :
-	$(NOECHO) $(ECHO) '<SOFTPKG NAME="RT-Extension-CopySubjectButton" VERSION="0.05">' > RT-Extension-CopySubjectButton.ppd
+	$(NOECHO) $(ECHO) '<SOFTPKG NAME="RT-Extension-CopySubjectButton" VERSION="0.06">' > RT-Extension-CopySubjectButton.ppd
 	$(NOECHO) $(ECHO) '    <ABSTRACT>RT-Extension-CopySubjectButton Extension</ABSTRACT>' >> RT-Extension-CopySubjectButton.ppd
 	$(NOECHO) $(ECHO) '    <AUTHOR>Averkios</AUTHOR>' >> RT-Extension-CopySubjectButton.ppd
 	$(NOECHO) $(ECHO) '    <IMPLEMENTATION>' >> RT-Extension-CopySubjectButton.ppd

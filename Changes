@@ -1,4 +1,7 @@
 Revision history for RT-Extension-CopySubjectButton
 
+0.06 2024-1-18
+ - Apparently the previous version only works on my machine, this version should fix that.
+
 0.05 2023-12-29
  - Complete rewrite. The extension now uses the SubjectTag instead of the Queue name to generate the subject. This allows to have different Queue tags than the Queue name.
